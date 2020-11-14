@@ -31,6 +31,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
 
                     <!-- to be bale to run tests in parallel-->
+                    <!-- methods - feature file; classes- runner classes. Now we run 2 runner classes in parallel-->
                     <parallel>classes</parallel>
                     <threadCount>2</threadCount>
                     <forkCount>2C</forkCount>

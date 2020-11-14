@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports",  // path to the reports
         },
         features = {"src/test/recources/features/fleet"
-
         },
         glue = "com/vytrack/step_definitions",          // can be an array, not String
         dryRun = false,                                 // true will run feature files only
