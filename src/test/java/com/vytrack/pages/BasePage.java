@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-// parent class for all classes. Used to initialize page factory (for @FindBy)
+// parent class for all classes. Used to initialize all the objects using Page Factory (for @FindBy)
 public abstract class BasePage {                // cannot create obj from this class
 
     @FindBy(className = "oro-subtitle")
