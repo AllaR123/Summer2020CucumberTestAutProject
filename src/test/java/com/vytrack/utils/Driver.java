@@ -19,7 +19,7 @@ public class Driver {
     }
 
     public static WebDriver getDriver() {
-        if (driverPool.get() == null) {
+        if (driverPool.get() == null) {         // collected by garbage Collector (finalize method) --> example from framework
 
 
             synchronized (Driver.class) {        // threads cannot access this piece of code at the same time
