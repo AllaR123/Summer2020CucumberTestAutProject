@@ -19,7 +19,9 @@ import org.junit.runner.RunWith;
         },
         glue = "com/vytrack/step_definitions",          // can be an array, not String
         dryRun = false,                                 // true will run feature files only
-        tags = "@negative_login",                       // to add one more tag --> 'and'
+        tags = "@login",                       // to add one more tag --> 'and'
+        //tags = "@regression",
+        //tags = "@smoke",
         // gives us reports
         publish = true
 

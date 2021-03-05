@@ -1,6 +1,6 @@
 Feature: As a user, I want to be able to create calendar events
 
-  @add_events @smoke
+  @add_events @smoke @regression
   Scenario: Create calendar event with default time
     Given user is on the landing page
     And user logs in as a "store manager"

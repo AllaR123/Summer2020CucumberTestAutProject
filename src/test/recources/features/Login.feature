@@ -4,7 +4,7 @@ Feature: As a user I want to be able to login under different roles
   Background: common steps
     Given user is on the landing page
 
-  @smoke
+  @smoke @regression
   Scenario: Login as a sales manager
     When user logs in
     Then user should see dashboard page
