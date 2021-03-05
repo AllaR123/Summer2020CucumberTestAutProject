@@ -22,8 +22,8 @@ import org.junit.runner.RunWith;
 
         //tags = "@login",                       // to add one more tag --> 'and'
         //tags = "@regression",
-        //tags = "@smoke",
-        tags = "@negative_login",
+        tags = "@smoke",
+        //tags = "@negative_login",
         // gives us reports
         publish = true
 
