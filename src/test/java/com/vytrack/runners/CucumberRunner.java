@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions (
         plugin = {
                 "rerun:target/rerun.txt",                // path to the failed test
-                "json:target/cucumber.json",             // path to the json files
-                "html:target/default-cucumber-reports",  // path to the reports
+                "json:target/cucumber.json",             // without json report HTML report on Jenkins will not be generated
+                "html:target/default-cucumber-reports",  // path to the reports (local ones)
                 // how can we see by looking at reports which thread (tests) we ran in parallel?
                 // with timeline we can see how much time it takes to execute a thread in total.
                 "timeline:target/timeline-report"
