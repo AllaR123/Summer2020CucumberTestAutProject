@@ -21,8 +21,8 @@ import org.junit.runner.RunWith;
         dryRun = false,                                 // true will run feature files only
 
         //tags = "@login",                       // to add one more tag --> 'and'
-        tags = "@regression",
-        //tags = "@smoke",
+        //tags = "@regression",
+        tags = "@smoke",
         //tags = "@negative_login",
         // gives us reports
         publish = true

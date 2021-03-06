@@ -29,7 +29,8 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <!-- if test fails it's NOT going to failed out build on Jenkins-->
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <!--if true maven would think that build was successful-->
+                    <testFailureIgnore>false</testFailureIgnore>
                     <!-- to be bale to run tests in parallel-->
                     <!-- methods - feature file; classes- runner classes. Now we run 2 runner classes in parallel-->
                     <parallel>classes</parallel>
