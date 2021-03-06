@@ -28,8 +28,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
+                    <!-- if test fails it's NOT going to failed out build on Jenkins-->
                     <testFailureIgnore>true</testFailureIgnore>
-
                     <!-- to be bale to run tests in parallel-->
                     <!-- methods - feature file; classes- runner classes. Now we run 2 runner classes in parallel-->
                     <parallel>classes</parallel>
