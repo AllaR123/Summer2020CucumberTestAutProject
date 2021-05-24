@@ -23,7 +23,8 @@
             </configuration>
         </plugin>
 
-            <!-- this plugin is for generating reports and testFailureIgnore for the ignoring failed tests-->
+            <!-- this plugin is for generating reports and testFailureIgnore for the ignoring failed tests,
+            also runs tests in parallel-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

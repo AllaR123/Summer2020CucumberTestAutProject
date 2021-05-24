@@ -21,7 +21,6 @@ public abstract class BasePage {                // cannot create obj from this c
     @FindBy(css = "[class='loader-mask']")
     protected WebElement loaderMast;
 
-
     public String getPageSubTitleText() {
 
         return pageSubTitle.getText();
